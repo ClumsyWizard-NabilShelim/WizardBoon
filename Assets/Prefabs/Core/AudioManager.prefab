@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2436219777505503332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9193845897322617122}
+  - component: {fileID: 3821423628829711942}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9193845897322617122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2436219777505503332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3821423628829711942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2436219777505503332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e69f6824f7507d41915b9d687d2a3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - soundName: Theme
+    clip: {fileID: 8300000, guid: 209d5f820e05fe149a55177f4dd7b2fc, type: 3}
+    loop: 1
+    volume: 0.25
+    source: {fileID: 0}
+  - soundName: ButtonClick
+    clip: {fileID: 8300000, guid: 341576256cc40284081de7bba44f22ed, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: Transition
+    clip: {fileID: 8300000, guid: 22dd31617e208894fb143d7474319859, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: PlayerSelect
+    clip: {fileID: 8300000, guid: ae1da04e7c97dfe4790b4434f71206f9, type: 3}
+    loop: 0
+    volume: 0.5
+    source: {fileID: 0}
+  - soundName: Movement
+    clip: {fileID: 8300000, guid: 141d789cc0f2a7b468f2168e93609357, type: 3}
+    loop: 1
+    volume: 1
+    source: {fileID: 0}
+  - soundName: CardSelect
+    clip: {fileID: 8300000, guid: 1e5e7c5f91fa7b04b8ae0910d5ed3c70, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: SwordHit
+    clip: {fileID: 8300000, guid: 20bf84f0edc413b46a018464afddc88f, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: BowPull
+    clip: {fileID: 8300000, guid: cc8ee60bdef8c444d9915e5612710c79, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: Fire
+    clip: {fileID: 8300000, guid: 6b4637d52db8bde4dbb151a06d925c6b, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: Ice
+    clip: {fileID: 8300000, guid: 76c2fa741dc67764880e46983212208e, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: EnemyHurt
+    clip: {fileID: 8300000, guid: 309751ae7d6e1a744bd4b6655a901151, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: PlayerHit
+    clip: {fileID: 8300000, guid: 1cbbc0ef47d2fbe4f9b9fad90dd47153, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: GameOver
+    clip: {fileID: 8300000, guid: f67dcc9f76cc90a40993fff96f59756e, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: Heal
+    clip: {fileID: 8300000, guid: a8372725fb7069442aa3f1cad33232fb, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - soundName: WeaponDrop
+    clip: {fileID: 8300000, guid: e5debc1af36e4c340b39655235b5105c, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}

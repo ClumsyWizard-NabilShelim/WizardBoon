@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: aebc2fbe8750d0f4d81964ea3dc8acde
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level0.unity
+    guid: 6c7c7a49971bc21469528e0f3abecbc4
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: a9917421365371d4285c17e8411e2ab4
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: eeac40669237d7546abf528600637891
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: b3dd0a6a2d1a38e4cb704a139d026b4e
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 2972fa73ad1c2a04c84c79bd5ec77a02
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 64bd45f6369da8a48ad2e3a200bd9a75
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: 1d6e9d25a2810ca45bbe74ba4983bfe2
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 13640001e922a7c41a70b2e8bf00e216
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 07de3f2adc7b8d74e96e206a31407586
+  m_configObjects: {}
